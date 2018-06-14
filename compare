@@ -1,0 +1,13 @@
+def compare(a,b,c):
+    if ((x<y) & (x<z)):
+        print("smallest number a=%d"%(x))
+    elif (y<z):
+        print("smallest number b=%d"%(y))
+    else :
+        print("smallest number c=%d"%(z))
+    return compare
+x=int(input("enter a"))
+y=int(input("enter b"))
+z=int(input("enter c"))
+compare(x,y,z)
+ 
