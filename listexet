@@ -1,0 +1,6 @@
+d={}
+    for i in cs.split(";")
+            k,v=i.split("=")
+            d[k]=v
+    return d
+    def show(self)
