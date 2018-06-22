@@ -1,0 +1,10 @@
+class student:
+    def __init__(self,name,roll):
+        self.name=name
+        self.roll=roll
+    def show(self):
+        print(self.name,self.roll)
+name1=student("varsha",12)
+name2=student("mitra",13)
+name1.show()
+name2.show()
